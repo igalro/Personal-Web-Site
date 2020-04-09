@@ -4,10 +4,6 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-.work-body{
-    background-color: #cbf1f5;
-}
-
 h1 {
   font-size: 5.625rem;
   font-weight: bold;
@@ -25,19 +21,27 @@ h3{
     color: #11999E;
 }
 
+h4{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
 .navbar{
   text-align: right;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .table-font{
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
-  font-weight: normal;}
+  font-weight: normal;
+}
 
 p{
   line-height: 2;
   font-family: 'Montserrat', sans-serif;
-
 }
 
 hr{
@@ -123,4 +127,34 @@ hr{
 .Github-img{
   height: 64px;
   width: 64px;
+}
+
+/* Contact Me Section */
+
+.contact-img{
+  padding-top: 50px;
+}
+
+.contact-me{
+background-color: #cbf1f5;
+height: 450px;
+text-align: center;
+}
+
+.contact-details{
+  background-color: #f1f9f9;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.asia-img{
+  padding-right: 80px;
+}
+
+.phone-img{
+padding-right: 40px;
+}
+
+.gmail-img{
+  padding-right: 25px;
 }
